@@ -75,8 +75,6 @@ public class Sprite
     public void moveUpRight(){
         moving = true;
         direction = UR;
-//        x += dx;
-//        y -= dy;
     }
     public void moveRight(int dx) {
         moving = true;
@@ -86,8 +84,6 @@ public class Sprite
     public void moveDownRight() {
         moving = true;
         direction = DR;
-//        x += dx;
-//        y += dy;
     }
     public void moveDown(int dy) {
         moving = true;
@@ -97,8 +93,6 @@ public class Sprite
     public void moveDownLeft() {
         moving = true;
         direction = DL;
-//        x -= dx;
-//        y += dy;
     }
     public void moveLeft(int dx) {
         moving = true;
@@ -109,8 +103,6 @@ public class Sprite
     public void moveUpLeft() {
         moving = true;
         direction = UL;
-//        x -= dx;
-//        y -= dy;
     }
     public void attack() {
         moving = false;
